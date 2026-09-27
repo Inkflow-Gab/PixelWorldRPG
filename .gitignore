@@ -1,0 +1,18 @@
+node_modules/
+dist/
+dist-check/
+.vite/
+*.local
+.DS_Store
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/src/main/assets/public/
+.idea/
+*.log
+__MACOSX/
+
+# Third-party source asset library (CC0 etc). Not ours to vendor; run
+# tools/prep_assets.py to produce the curated subset in public/assets/.
+Assets-to-Use/
