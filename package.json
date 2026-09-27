@@ -14,7 +14,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "assets": "python3 tools/prep_assets.py",
-    "maps": "python3 tools/gen_maps.py"
+    "assets:verify": "python3 tools/verify_assets.py",
+    "maps": "python3 tools/gen_maps.py",
+    "chars": "python3 tools/gen_characters.py"
   },
   "dependencies": {
     "phaser": "3.90.0"
